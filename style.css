@@ -13,7 +13,7 @@ body {
 
 /* About Page Background */
 .about-page {
-  background-image: url('6326726.jpg');
+  background-image: url('contact.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -21,7 +21,7 @@ body {
 
 /* Plant Care Tips Background */
 .plant-care-page {
-  background-image: url('../images/plant-care-bg.jpg');
+  background-image: url('plnat-care.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -29,7 +29,8 @@ body {
 
 /* Forum Background */
 .forum-page {
-  background-image: url('../images/forum-bg.jpg');
+  background-color: #274a27;
+  background-image: url('../images/events-bg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -37,7 +38,7 @@ body {
 
 /* Events Background */
 .events-page {
-  background-image: url('../images/events-bg.jpg');
+  background-image: url('events.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -45,7 +46,7 @@ body {
 
 /* Contact Background */
 .contact-page {
-  background-image: url('../images/contact-bg.jpg');
+  background-image: url('wp6376847.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -53,12 +54,11 @@ body {
 
 /* Gallery Background */
 .gallery-page {
-  background-image: url('../images/gallery-bg.jpg');
+  background-image: url('wp6376847.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-
 /* Shop Background */
 .shop-page {
   background-image: url('../images/shop-bg.jpg');
@@ -66,6 +66,7 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -477,7 +478,12 @@ blockquote {
   margin-top: 2rem;
 }
 
-.category-card {
+.gallery-categories{
+  color: white;
+}
+
+.category-card1 {
+  background-image: url('category-card1.jpg');
   background-color: white;
   padding: 1.5rem;
   border-radius: 8px;
@@ -487,11 +493,91 @@ blockquote {
   border-top: 3px solid #2e7d32;
 }
 
-.category-card:hover {
+.category-card1:hover {
   transform: translateY(-5px);
 }
 
-.category-card h3 {
+.category-card1 h3 {
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+.category-card2 {
+  background-image: url('category-card2.jpg');
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  border-top: 3px solid #2e7d32;
+}
+
+.category-card2:hover {
+  transform: translateY(-5px);
+}
+
+.category-card2 h3 {
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+.category-card3 {
+  background-image: url('category-card3.jpg');
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  border-top: 3px solid #2e7d32;
+}
+
+.category-card3:hover {
+  transform: translateY(-5px);
+}
+
+.category-card3 h3 {
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+.category-card4 {
+  background-image: url('category-card4.jpg');
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  border-top: 3px solid #2e7d32;
+}
+
+.category-card4:hover {
+  transform: translateY(-5px);
+}
+
+.category-card4 h3 {
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+.category-card5 {
+  background-image: url('category-card5.jpg');
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  border-top: 3px solid #2e7d32;
+}
+
+.category-card5:hover {
+  transform: translateY(-5px);
+}
+
+.category-card5 h3 {
   color: #1b5e20;
   margin-bottom: 0.5rem;
 }
@@ -787,8 +873,9 @@ blockquote {
   margin-top: 2rem;
 }
 
-.product-card {
-  background-color: white;
+.product-card1{
+  background-image: url('monstera.jpg');
+  background-size: cover;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -796,12 +883,95 @@ blockquote {
   text-align: center;
 }
 
-.product-card:hover {
+.product-card2{
+  background-image: url('card2.jpg');
+  background-size: cover;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.product-card3{
+  background-image: url('card3.jpg');
+  background-size: cover;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.product-card4{
+  background-image: url('card4.jpg');
+  background-size: cover;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.product-card5{
+  background-image: url('aloe vera.jpg');
+  background-size: cover;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+.product-card1:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.product-card h2 {
+.product-card1 h2 {
+  color: #1b5e20;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.product-card2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card2 h2 {
+  color: #1b5e20;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.product-card3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card3 h2 {
+  color: #1b5e20;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.product-card4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card4 h2 {
+  color: #1b5e20;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.product-card5:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card5 h2 {
   color: #1b5e20;
   margin-bottom: 1rem;
   font-size: 1.3rem;
@@ -864,13 +1034,12 @@ blockquote {
       margin-right: 0;
       margin-bottom: 1rem;
   }
-  
+
   .gallery-categories,
   .products-grid {
       grid-template-columns: 1fr 1fr;
   }
 }
-
 @media (max-width: 480px) {
   .gallery-categories,
   .products-grid,
